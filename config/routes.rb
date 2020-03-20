@@ -68,7 +68,7 @@ Rails.application.routes.draw do
 
   get 'static_pages/how_might_we'
 
-  get 'static_pages/agileInAction'
+  get 'static_pages/sustain'
 
   get 'static_pages/setUp'
 
