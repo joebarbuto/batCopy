@@ -78,6 +78,24 @@ Rails.application.routes.draw do
 
   get 'static_pages/immersionWeek'
 
+  get 'static_pages/trainTheTrainer'
+
+  get 'static_pages/roadshow'
+
+  get 'static_pages/workingInSquads'
+
+  get 'static_pages/servantLeadership'
+
+  get 'static_pages/learning'
+
+  get 'static_pages/embeddingAgile'
+
+  get 'static_pages/setTheScene'
+
+  get 'static_pages/coachHacks'
+
+  get 'static_pages/metrics'
+
   root 'static_pages#home'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
