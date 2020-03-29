@@ -16,12 +16,42 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </div>
 
 <style>
-  h4{
+h4{
 color:#1164fc;
 font-weight:bold;
 line-height:1.3;
+ }
+  .container-fluid {
+  position: relative;
 
-   }
+}
+  .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+  .container-fluid:hover .overlay {
+  opacity: 1;
+}
+  .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+ transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 p{
   color:#707070;
   font-style:italic;
@@ -38,14 +68,16 @@ p{
         <div class="primary-panel-body">
           <a href = "trainTheTrainer">
             <div class="grid-image-container" style="height:137px">
+                <h4>Train the Trainer</h4></a>
+<div class="overlay">
+  <div class="text">Materials & setup necessary to organize a Train the Trainer session.</div>
 
-              <h4>Train the Trainer</h4></a>
-
-              <p>Materials & setup necessary to organize a Train the Trainer session.</p>
             </div>
+        </div>
         </div>
       </div>
     </div>
+
     <div class="col-sm-4">
       <div class="panel panel-default">
         <div class="primary-panel-body">
