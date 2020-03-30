@@ -11,11 +11,50 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <h1>Business Agile Toolbox Home 2</h1>
   </br>
   <h5>The goal of this toolbox is to provide the materials required to engage, setup, execute & sustain Agile Transformation.</h5>
-</br>
-</br>
+
 </div>
 
 <style>
+
+.panel-default {
+  position: relative;
+
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: #008CBA;
+}
+
+.panel-default:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 
   h4{
 color:#1164fc;
@@ -40,7 +79,9 @@ p{
             <div class="grid-image-container" style="height:335px">
               <%= image_tag("HomePage/whatIsBa.png", :id=> "placeholder", :class=>"grid-image",  :align=>"center") %>
               <h4>The Way of J&J Agile</h4></a>
-              <p>Start here to understand what is Business Agile, see examples of it in action and discover how to get involved.</p>
+              <div class="overlay">
+   <div class="text">Start here to understand what is Business Agile, see examples of it in action and discover how to get involved.</div>
+ </div>
             </div>
         </div>
         </div>
