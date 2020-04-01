@@ -18,6 +18,8 @@ Rails.application.routes.draw do
 
  get "plays/contextualInquiry", to: "plays#contextualInquiry"
 
+ get "plays/standup", to: "plays#standup"
+
  get "plays/productRoadmap", to: "plays#productRoadMap"
 
  get "plays/experimentArtGallery", to: "plays#experimentArtGallery"
@@ -47,6 +49,8 @@ Rails.application.routes.draw do
  get "experiments/fakeFrontDoor", to: "experiments#fakeFrontDoor"
 
  get "experiments/judo", to: "experiments#judo"
+
+ get "experiments/ab", to: "experiments#ab"
 
   get 'static_pages/home'
 
