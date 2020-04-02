@@ -33,4 +33,7 @@ end
 def experimentArtGallery
 end
 
+def standup
+end 
+
 end
