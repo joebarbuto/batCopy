@@ -12,6 +12,8 @@ Rails.application.routes.draw do
 
  get "plays/kanban", to: "plays#kanban"
 
+  get "plays/retro", to:"plays#retro"
+
  get "plays/hypothesisTemplate", to: "plays#hypothesisTemplate"
 
  get "plays/solutionArtGallery", to: "plays#solutionArtGallery"
@@ -105,5 +107,7 @@ Rails.application.routes.draw do
   root 'static_pages#home'
 
   get 'static_pages/home3'
+
+
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
