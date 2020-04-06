@@ -12,7 +12,7 @@ Rails.application.routes.draw do
 
  get "plays/kanban", to: "plays#kanban"
 
-  get "plays/retro", to:"plays#retro"
+  get "plays/retro", to: "plays#retro"
 
  get "plays/hypothesisTemplate", to: "plays#hypothesisTemplate"
 
