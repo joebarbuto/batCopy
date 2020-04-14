@@ -34,6 +34,13 @@ def experimentArtGallery
 end
 
 def standup
+<<<<<<< HEAD
 end 
+=======
+end
+
+def retro 
+end
+>>>>>>> 6410ff7ce54eb593436e5243d52117a0685e73a6
 
 end
